@@ -15,7 +15,7 @@ function Register() {
 
 
     const sendUser=async()=>{
-        let data = await axios.post('http://localhost:4500/api/user/register',{
+        let data = await axios.post('https://chatbot-backend-huh3.onrender.com/api/user/register',{
             "name":loginData.name,
             "email":loginData.email,
             "password":loginData.password,

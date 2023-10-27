@@ -10,7 +10,7 @@ import ReactScrollToBottom from "react-scroll-to-bottom";
 
 let socket;
 
-const ENDPOINT = "https://chatbot-m7cx.onrender.com/";
+const ENDPOINT = "https://chatbot-backend-huh3.onrender.com/";
 
 const Chat = () => {
   const [id, setid] = useState("");
